@@ -1,0 +1,253 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #ffffff;
+    box-shadow: 2px 5px 11px #ebe8e8;
+    font-size:14px ;
+    
+}
+.navbar a:hover{
+    color: #f0b7fd !important;
+}
+.hellobar{
+  background-color: rgb(238, 235, 230);
+  font-family: "Messina Sans", Inter;
+  font-size:14px;
+  line-height:16px;
+  font-weight:400;
+}
+.hellobar a{
+    color:#a98eaf;
+}
+.left-bar img{
+    width: 6rem;
+}
+.navbar_search{    
+    width: 290px;
+    border: 1px solid transparent;
+    box-shadow: none;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 32px;
+    background: #f2f2f2;
+    padding-left: 30px;
+    font-size: 12px;
+}
+.nav-button li:first-child{
+  box-sizing: border-box;
+  
+    background-color:#43165c;    
+    
+}
+.nav-button a:first-child{
+    
+    font-size:100%;   
+    
+    color:#ffffff !important;
+}
+.nav-button li:first-child:hover{
+    background-color: #790fdd;
+}
+.nav-button li:last-child{    
+    border: 1px solid #43165c;
+}
+.nav-button li:last-child a{
+    
+    color: #43165c !important;
+}
+.nav-button li:last-child:hover{
+    background-color:  rgb(238, 235, 230);
+}
+.togglecolapse{
+    background-color: #43165c;
+}
+.togglecolapse li{
+    list-style-type: none;
+    padding: 2% 2% 2% 2%;
+}
+.togglecolapse a{
+    
+    color: #ffffff;
+    text-decoration: none;
+}
+.togglecolapse img{
+    width: 6rem;
+    height: 2rem;
+}
+main{
+    padding-top: 6rem;
+}
+.banner-img{
+    padding-top: 20%;
+    width: 95%;
+    height: 100%;
+}
+.banner-head{
+    padding-top: 22%;    
+    color:#262626;
+    line-height:48px;
+    
+}
+
+
+
+.wrapper{
+
+  display:flex;
+  justify-content: flex-start;
+ 
+ 
+}
+.search_box_wrapper{
+  width: 30rem;
+  height: 4rem;
+  border: 1px solid #838086;
+}
+
+.search_box_wrapper button{
+  width: 25%;
+  height: 95%;
+ 
+  border-radius: 25px;   
+  background-color: #19052b;
+font-size: 15px;
+  color: #ffffff;
+}
+
+
+.search_box_wrapper input{
+    width: 59%;
+    height: 75%;
+    min-width: 40%;
+    min-height: 22%;
+}
+.products-tabs{
+    background-color: #afafaf;
+   
+}
+.products-tabs p{
+    color: #4a4a4a;
+    font-size:20px;
+    line-height: 30px;
+}
+.line{
+    border: .01px solid #979494;
+    width: 70%;
+    margin-bottom: 25px;
+}
+
+.nav-pills a{
+    color: rgb(11, 0, 58);
+}
+
+.nav-pills a:first-child{
+    background-color: #ebe8e8 !important;
+    color: rgb(11, 0, 58) !important;
+    
+}
+
+.product-head {
+   
+    padding-left: 30%;    
+    color:#262626;
+    
+}
+.product-head li{
+    padding-top: 8%;
+    
+}
+.product-img{
+    padding-top: 10%;
+    width:55%;
+    height: 55%;
+}
+
+.platform{
+    background-color: #e4dcdc;
+}
+h5{
+    color: #8d8383 !important;  
+}
+footer{
+    padding-top: 2%;
+    background-color: #43165c;
+}
+footer li,a{
+    list-style-type: none;
+    text-decoration: none;
+}
+.footer-links a{
+    color: #ffffff;
+}
+.center li{
+    padding-top: 5%;
+}
+.bootom-foot p{
+    color: #535053  ;
+}
+.friendly-price h2{
+    font-size: 120% !important;
+    font-weight: bold;
+    
+}
+.line-2{
+    border: .01px solid #939094;
+    width: 90%;
+    margin-bottom: 25px;
+}
+.bothead h6{
+    font-size: 95% !important;
+    font-weight: 100;
+}
+@media screen and (max-width:900px) {
+    .product-head li{
+        font-size: 15px !important;
+        font-weight: 100;
+    }
+    .product-head {
+   
+        padding-left: 0%;    
+        color:#262626;
+        
+    }
+    .product-img{
+        padding-top: 35%;
+        width:100%;
+        height: 100%;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    .wrapper{
+
+        display:flex;
+        justify-content: flex-start;
+        
+        
+       
+      }
+      .search_box_wrapper{
+        width: 30rem;
+        height: 4rem;
+        border: 1px solid #838086;
+      }
+      
+      .search_box_wrapper button{
+        margin-top: 6%;
+        
+        width: 100%;
+        height: 100%;
+       
+        border-radius: 25px;   
+        background-color: #19052b;
+      font-size: 15px;
+        color: #ffffff;
+      }
+    .mobi{
+        margin-top: 6%;
+    }
+}
